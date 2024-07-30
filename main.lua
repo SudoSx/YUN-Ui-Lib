@@ -180,7 +180,7 @@ function initLibrary()
     end
 
 
-    local gui = utility.create("lovemaker69")
+    local gui = utility.create("ScreenGui")
 
 
     inputService.InputBegan:Connect(function(input)
