@@ -3,9 +3,14 @@ Yun Founders: flash#9999, loris#9547, worldwide#0001 , Saul Goodman#2345
 Yun Devs: zomb#7741, nives#0001, loot#1337
 Special Thanks To: Qw#1549
 --]]
+_ak = game.CoreGui:FindFirstChild("ScreenGui")
+if _ak then
+    _ak:Destroy()
+end
+
 function initLibrary()
     local folderName = "epic config folder"
-    game.CoreGui:FindFirstChild("ScreenGui"):Destroy()
+    
 
 
     if not isfolder(folderName) then
