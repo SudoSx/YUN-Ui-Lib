@@ -5,6 +5,7 @@ Special Thanks To: Qw#1549
 --]]
 function initLibrary()
     local folderName = "epic config folder"
+    game.CoreGui:FindFirstChild("ScreenGui"):Destroy()
 
 
     if not isfolder(folderName) then
