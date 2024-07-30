@@ -197,6 +197,7 @@ function initLibrary()
 
 
     gui.Parent = coreGui
+    gui.Name = 'lovemaker69'
 
 
     local flags = {toggles = {}, boxes = {}, sliders = {}, dropdowns = {}, multidropdowns = {}, keybinds = {}, colorpickers = {}}
